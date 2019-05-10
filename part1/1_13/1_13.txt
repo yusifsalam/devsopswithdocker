@@ -1,0 +1,2 @@
+docker build -t sptring-example .
+docker run -p 8080:8080 spring-example java -jar ./target/docker-example-1.1.3.jar

@@ -1,0 +1,2 @@
+docker build -t backend-example .
+docker run -v $(pwd)/backend-example-docker/logs.txt:/backend-example/logs.txt -p 8000:8000 backend-example npm start

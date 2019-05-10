@@ -1,0 +1,2 @@
+docker build -t maiden_tiedot .
+docker run -p 3000:3000 maiden_tiedot npm start

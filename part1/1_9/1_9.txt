@@ -1,0 +1,6 @@
+docker run -p 80 devopsdockeruh/ports_exercise
+check container id with docker ps
+CONTAINER ID        IMAGE                           COMMAND             CREATED             STATUS              PORTS                   NAMES
+aa0898d047e7        devopsdockeruh/ports_exercise   "npm start"         39 seconds ago      Up 38 seconds       0.0.0.0:32768->80/tcp   thirsty_ganguly
+docker port aa
+in browser navigate to localhost:32768

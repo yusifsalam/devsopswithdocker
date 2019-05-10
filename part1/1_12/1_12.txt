@@ -1,0 +1,10 @@
+cd frontend
+docker build -t frontend .
+cd ../backend
+docker build -t backend .
+docker run -v $(pwd)/backend-example-docker/logs.txt:/backend-example/logs.txt -p 8000:8000 backend npm start
+
+start new terminal instance from the 1_12 folder
+cd frontend
+docker run -p 5000:5000 frontend npm start
+

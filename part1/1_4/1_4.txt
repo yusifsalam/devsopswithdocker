@@ -1,0 +1,6 @@
+Secret message is:
+"Docker is easy"
+
+docker run -d --name bash_exercise devopsdockeruh/exec_bash_exercisedocker
+docker exec -it bash_exercise bash
+tail -f ./logs.txt
