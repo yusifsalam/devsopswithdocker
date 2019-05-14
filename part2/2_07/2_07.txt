@@ -1,0 +1,8 @@
+cd kurkkumopo-backend 
+docker build -t kurkkumopo-backend .
+cd ..
+cd kurkkumopo-frontend
+docker build -t kurkkumopo-frontend .
+cd ..
+cd kurkkumopo-training
+docker build -t kurkkumopo-training .
