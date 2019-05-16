@@ -1,2 +1,4 @@
 docker build -t pusher . 
 docker run -it -v /var/run/docker.sock:/var/run/docker.sock pusher 
+
+This runs the docker container in interactive mode. Requires dockerhub credentials. 
