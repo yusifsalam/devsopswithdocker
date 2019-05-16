@@ -1,0 +1,3 @@
+            ubuntu  node:alpine
+Frontend    379mb   233mb
+Backend     283mb   136mb

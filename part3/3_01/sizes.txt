@@ -1,0 +1,3 @@
+            BEFORE   AFTER
+Frontend    411mb    379mb
+Backend     314mb    283mb

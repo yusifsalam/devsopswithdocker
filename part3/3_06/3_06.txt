@@ -1,0 +1,9 @@
+BEFORE:
+378mb before optimizations
+docker build -t maiden_tiedot -f Dockerfile.old .
+docker run -p 3000:3000 maiden_tiedot npm start
+
+AFTER:
+231mb after optimizations
+docker build -t maiden_tiedot_new -f Dockerfile.new .
+docker run -p 3000:3000 maiden_tiedot_new npm start

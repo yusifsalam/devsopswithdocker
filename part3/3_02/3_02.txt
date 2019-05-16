@@ -1,0 +1,2 @@
+docker built -t yle-dl .
+docker run -v "$(pwd)/out:/out" yle-dl https://areena.yle.fi/1-50083213  
