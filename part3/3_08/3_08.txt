@@ -1,0 +1,2 @@
+docker build -t pusher . 
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock pusher 
